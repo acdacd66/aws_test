@@ -26,7 +26,7 @@ SECRET_KEY = '2m%=rfi5@x1mh$+40b)noxu-g9_y%m6^)ajll6(6ovdfv@h&g4'
 DEBUG = True
 
 ALLOWED_HOSTS = [  'ec2-54-180-31-115.ap-northeast-2.compute.amazonaws.com',
-    '54.180.31.115',]
+    '54.180.31.115']
 AUTH_USER_MODEL ='accounts.Profile'
 
 # Application definition
@@ -133,5 +133,5 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 TIME_ZONE = 'Asia/Seoul'
